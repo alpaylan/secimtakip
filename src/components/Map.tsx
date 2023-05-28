@@ -5,82 +5,79 @@ import { MapContainer, TileLayer, GeoJSON, Polygon } from 'react-leaflet';
 import { GeoJsonObject } from 'geojson';
 
 import cities from '../data/cities.json';
-import initialVoteData from '../data/votedata.json';
 
 import polygonClipping from 'polygon-clipping';
 import { Ring, MultiPolygon } from 'polygon-clipping';
 
 
+const divideCityMultiPolygon = (city: GeoJsonObject, weights: number[]): MultiPolygon[] => {
+    console.log(city);
+    const polygons = (city as any)?.geometry?.coordinates;
+    console.log(polygons);
+    const coords = polygons.flat().flat() as Ring;
+    console.log(coords);
+    const leftMost = coords.reduce((acc, coord) => Math.min(acc, coord[0]), Infinity);
+    const rightMost = coords.reduce((acc, coord) => Math.max(acc, coord[0]), -Infinity);
+    const topMost = coords.reduce((acc, coord) => Math.max(acc, coord[1]), -Infinity);
+    const bottomMost = coords.reduce((acc, coord) => Math.min(acc, coord[1]), Infinity);
+    // create n-1 points between leftMost and rightMost points based on weights
+    const accumulatedWeights = weights.reduce((acc, weight) => [...acc, acc[acc.length - 1] + weight], [0]).slice(1);
+    const points = accumulatedWeights.map((weight) => leftMost + (rightMost - leftMost) * weight);
+    return points.map((point, index) => {
+        const left = points[index - 1] || leftMost;
+        const clipPolygon = [[left, bottomMost], [point, bottomMost], [point, topMost], [left, topMost]];
+        // @ts-ignore
+        var dividedCity = polygonClipping.intersection([clipPolygon], [coords]);
+        return dividedCity;
+    });
+}
+
 const divideCity = (city: GeoJsonObject, weights: number[]): MultiPolygon[] => {
+    // @ts-ignore
+    if (city.geometry.type !== 'Polygon') {
+        return divideCityMultiPolygon(city, weights);
+    }
     const coords = (city as any)?.geometry?.coordinates[0] as Ring;
     const leftMost = coords.reduce((acc, coord) => Math.min(acc, coord[0]), Infinity);
     const rightMost = coords.reduce((acc, coord) => Math.max(acc, coord[0]), -Infinity);
     const topMost = coords.reduce((acc, coord) => Math.max(acc, coord[1]), -Infinity);
     const bottomMost = coords.reduce((acc, coord) => Math.min(acc, coord[1]), Infinity);
     // create n-1 points between leftMost and rightMost points based on weights
-    console.log(leftMost, rightMost, topMost, bottomMost);
     const accumulatedWeights = weights.reduce((acc, weight) => [...acc, acc[acc.length - 1] + weight], [0]).slice(1);
-    console.log(weights);
-    console.log(accumulatedWeights);
     const points = accumulatedWeights.map((weight) => leftMost + (rightMost - leftMost) * weight);
-    console.log(points);
     return points.map((point, index) => {
-        console.log("point", point);
-        console.log("index", index);
         const left = points[index - 1] || leftMost;
-        const right = points[index + 1] || rightMost;
-        console.log(left, point, right);
         const clipPolygon = [[left, bottomMost], [point, bottomMost], [point, topMost], [left, topMost]];
-        console.log("leftright", left, right)
         // @ts-ignore
         var dividedCity = polygonClipping.intersection([clipPolygon], [city.geometry.coordinates]);
-        console.log(dividedCity);
         return dividedCity;
     });
 }
 
 
-type CityVoteData = {
-    // city
-    cityName: string;
-    // votes
-    totalNumberOfVotes: number;
-    countedVotes: number;
-    votesForKK: number;
-    votesForRTE: number;
-    invalidVotes: number;
-    // ballot boxes
-    totalNumberOfBallotBoxes: number;
-    numberOfOpenedBallotBoxes: number;
-    votesForKKPercentage: number;
-    votesForRTEPercentage: number;
-    invalidVotesPercentage: number;
-};
 
-type VoteData = {
-    data: Record<string, CityVoteData>;
-};
 
 const indexToColor = (index: number): string => {
     const colors = [
         'red',
-        'yellow',
+        'orange',
         'white',
     ];
     return colors[index % colors.length];
 }
 
 const Map: React.FC = () => {
-    const [useBallotBoxes, setUseBallotBoxes] = React.useState<boolean>(false);
-    const [usePercentage, setUsePercentage] = React.useState<boolean>(false);
-    const [voteData, setVoteData] = React.useState<VoteData>(initialVoteData);
-
-    const cityParts = divideCity(cities.features[0] as GeoJsonObject, [0.25, 0.5, 0.25]);
-    
+    const cityPartsMapped = cities.features.map((city) => {
+        let w1 = Math.random();
+        let w2 = Math.random();
+        let w3 = Math.random();
+        let sum = w1 + w2 + w3;
+        return divideCity(city as GeoJsonObject, [w1/sum, w2/sum, w3/sum]);
+    }).filter((cityParts) => cityParts.length > 0).flat();
 
     const dividedCity = {
         type: 'FeatureCollection',
-        features: cityParts.map((part, index) => ({
+        features: cityPartsMapped.map((part, index) => ({
             type: 'Feature',
             geometry: {
                 type: 'MultiPolygon',
@@ -89,7 +86,7 @@ const Map: React.FC = () => {
             properties: {
                 color: indexToColor(index),
             },
-        })),
+        }))
     }
 
     console.log(dividedCity);
@@ -129,34 +126,22 @@ const Map: React.FC = () => {
             />
 
             <GeoJSON
-                data={cities as GeoJsonObject}
-                style={() => ({
-                    color: 'black',
-                    weight: 1,
-                    opacity: 1,
-                    fillOpacity: 0.9,
-                    fillColor: 'red',
-                })}
-            />
-            <GeoJSON
-                data={cities.features[0] as GeoJsonObject}
-                style={() => ({
-                    color: 'black',
-                    weight: 1,
-                    opacity: 1,
-                    fillOpacity: 0.9,
-                    fillColor: 'blue',
-                })}
-            />
-
-            <GeoJSON
                 data={dividedCity as GeoJsonObject}
                 style={(feature) => ({
-                    color: feature?.properties.color,
+                    color: "black",
                     weight: 1,
                     opacity: 1,
                     fillOpacity: 1,
                     fillColor: feature?.properties.color,
+                })}
+            />
+            <GeoJSON
+                data={cities as GeoJsonObject}
+                style={() => ({
+                    color: 'black',
+                    weight: 3,
+                    opacity: 0.9,
+                    fillOpacity: 0,
                 })}
             />
         </MapContainer>
