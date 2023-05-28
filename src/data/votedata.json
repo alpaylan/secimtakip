@@ -1,0 +1,17 @@
+{
+    "data": {
+        "Adana": {
+            "cityName": "Adana",
+            "totalNumberOfVotes": 0,
+            "countedVotes": 0,
+            "votesForKK": 0,
+            "votesForRTE": 0,
+            "invalidVotes": 0,
+            "totalNumberOfBallotBoxes": 0,
+            "numberOfOpenedBallotBoxes": 0,
+            "votesForKKPercentage": 0,
+            "votesForRTEPercentage": 0,
+            "invalidVotesPercentage": 0
+        }
+    }
+}
