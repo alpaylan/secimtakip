@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react';
+import React from 'react';
 
 import 'leaflet/dist/leaflet.css';
 import { MapContainer, TileLayer, GeoJSON, Polygon } from 'react-leaflet';
@@ -11,11 +11,8 @@ import { Ring, MultiPolygon } from 'polygon-clipping';
 
 
 const divideCityMultiPolygon = (city: GeoJsonObject, weights: number[]): MultiPolygon[] => {
-    console.log(city);
     const polygons = (city as any)?.geometry?.coordinates;
-    console.log(polygons);
     const coords = polygons.flat().flat() as Ring;
-    console.log(coords);
     const leftMost = coords.reduce((acc, coord) => Math.min(acc, coord[0]), Infinity);
     const rightMost = coords.reduce((acc, coord) => Math.max(acc, coord[0]), -Infinity);
     const topMost = coords.reduce((acc, coord) => Math.max(acc, coord[1]), -Infinity);
@@ -88,9 +85,6 @@ const Map: React.FC = () => {
             },
         }))
     }
-
-    console.log(dividedCity);
-    // divideCity(cities.features[0] as GeoJsonObject, [0.25, 0.5, 0.25]);
 
     return (
         <MapContainer
