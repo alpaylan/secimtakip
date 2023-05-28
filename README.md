@@ -1,3 +1,3 @@
 # SecimTakip
 
-Secimtakip is an electoral map specialized for percentage based presentation.
+Secimtakip is an electoral map specialized for percentage-based presentation.
