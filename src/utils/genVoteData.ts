@@ -12,7 +12,7 @@ const generateVoteData : (cityName: string) => CityVoteData = (cityName: string)
     const invalidVotesPercentage = (invalidVotes / (votesForKK + votesForRTE)) * 100;
     const totalNumberOfBallotBoxes = 50;
     const numberOfOpenedBallotBoxes = Math.floor(Math.random() * totalNumberOfBallotBoxes);
-
+    const percentageOfOpenedBallotBoxes = (numberOfOpenedBallotBoxes / totalNumberOfBallotBoxes) * 100;
     return {
         cityName,
         totalNumberOfVotes,
@@ -23,6 +23,7 @@ const generateVoteData : (cityName: string) => CityVoteData = (cityName: string)
         votesForKKPercentage,
         votesForRTEPercentage,
         invalidVotesPercentage,
+        percentageOfOpenedBallotBoxes,
         totalNumberOfBallotBoxes,
         numberOfOpenedBallotBoxes
     };

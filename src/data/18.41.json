@@ -1,0 +1,1379 @@
+[
+    {
+        "data": {
+            "cityName": "İstanbul",
+            "countedVotes": 0,
+            "invalidVotes": 0,
+            "invalidVotesPercentage": 0,
+            "numberOfOpenedBallotBoxes": 1322,
+            "percentageOfOpenedBallotBoxes": 42.88,
+            "totalNumberOfBallotBoxes": 30849,
+            "totalNumberOfVotes": 0,
+            "votesForKK": 0,
+            "votesForKKPercentage": 50.32,
+            "votesForRTE": 0,
+            "votesForRTEPercentage": 49.68
+        },
+        "name": "İstanbul"
+    },
+    {
+        "data": {
+            "cityName": "Ankara",
+            "countedVotes": 0,
+            "invalidVotes": 0,
+            "invalidVotesPercentage": 0,
+            "numberOfOpenedBallotBoxes": 689,
+            "percentageOfOpenedBallotBoxes": 56.18,
+            "totalNumberOfBallotBoxes": 12275,
+            "totalNumberOfVotes": 0,
+            "votesForKK": 0,
+            "votesForKKPercentage": 46.78,
+            "votesForRTE": 0,
+            "votesForRTEPercentage": 53.22
+        },
+        "name": "Ankara"
+    },
+    {
+        "data": {
+            "cityName": "İzmir",
+            "countedVotes": 0,
+            "invalidVotes": 0,
+            "invalidVotesPercentage": 0,
+            "numberOfOpenedBallotBoxes": 628,
+            "percentageOfOpenedBallotBoxes": 63.51,
+            "totalNumberOfBallotBoxes": 9897,
+            "totalNumberOfVotes": 0,
+            "votesForKK": 0,
+            "votesForKKPercentage": 65.77,
+            "votesForRTE": 0,
+            "votesForRTEPercentage": 34.230000000000004
+        },
+        "name": "İzmir"
+    },
+    {
+        "data": {
+            "cityName": "Bursa",
+            "countedVotes": 0,
+            "invalidVotes": 0,
+            "invalidVotesPercentage": 0,
+            "numberOfOpenedBallotBoxes": 443,
+            "percentageOfOpenedBallotBoxes": 64.51,
+            "totalNumberOfBallotBoxes": 6870,
+            "totalNumberOfVotes": 0,
+            "votesForKK": 0,
+            "votesForKKPercentage": 44.99,
+            "votesForRTE": 0,
+            "votesForRTEPercentage": 55.01
+        },
+        "name": "Bursa"
+    },
+    {
+        "data": {
+            "cityName": "Adana",
+            "countedVotes": 0,
+            "invalidVotes": 0,
+            "invalidVotesPercentage": 0,
+            "numberOfOpenedBallotBoxes": 243,
+            "percentageOfOpenedBallotBoxes": 50.93,
+            "totalNumberOfBallotBoxes": 4785,
+            "totalNumberOfVotes": 0,
+            "votesForKK": 0,
+            "votesForKKPercentage": 51.72,
+            "votesForRTE": 0,
+            "votesForRTEPercentage": 48.28
+        },
+        "name": "Adana"
+    },
+    {
+        "data": {
+            "cityName": "Adıyaman",
+            "countedVotes": 0,
+            "invalidVotes": 0,
+            "invalidVotesPercentage": 0,
+            "numberOfOpenedBallotBoxes": 113,
+            "percentageOfOpenedBallotBoxes": 78.24,
+            "totalNumberOfBallotBoxes": 1452,
+            "totalNumberOfVotes": 0,
+            "votesForKK": 0,
+            "votesForKKPercentage": 28.560000000000002,
+            "votesForRTE": 0,
+            "votesForRTEPercentage": 71.44
+        },
+        "name": "Adıyaman"
+    },
+    {
+        "data": {
+            "cityName": "Afyon",
+            "countedVotes": 0,
+            "invalidVotes": 0,
+            "invalidVotesPercentage": 0,
+            "numberOfOpenedBallotBoxes": 159,
+            "percentageOfOpenedBallotBoxes": 84.67,
+            "totalNumberOfBallotBoxes": 1885,
+            "totalNumberOfVotes": 0,
+            "votesForKK": 0,
+            "votesForKKPercentage": 32.379999999999995,
+            "votesForRTE": 0,
+            "votesForRTEPercentage": 67.62
+        },
+        "name": "Afyon"
+    },
+    {
+        "data": {
+            "cityName": "Ağrı",
+            "countedVotes": 0,
+            "invalidVotes": 0,
+            "invalidVotesPercentage": 0,
+            "numberOfOpenedBallotBoxes": 94,
+            "percentageOfOpenedBallotBoxes": 78.46,
+            "totalNumberOfBallotBoxes": 1207,
+            "totalNumberOfVotes": 0,
+            "votesForKK": 0,
+            "votesForKKPercentage": 62.74,
+            "votesForRTE": 0,
+            "votesForRTEPercentage": 37.26
+        },
+        "name": "Ağrı"
+    },
+    {
+        "data": {
+            "cityName": "Aksaray",
+            "countedVotes": 0,
+            "invalidVotes": 0,
+            "invalidVotesPercentage": 0,
+            "numberOfOpenedBallotBoxes": 90798,
+            "percentageOfOpenedBallotBoxes": 93.51,
+            "totalNumberOfBallotBoxes": 971,
+            "totalNumberOfVotes": 0,
+            "votesForKK": 0,
+            "votesForKKPercentage": 24.450000000000003,
+            "votesForRTE": 0,
+            "votesForRTEPercentage": 75.55
+        },
+        "name": "Aksaray"
+    },
+    {
+        "data": {
+            "cityName": "Amasya",
+            "countedVotes": 0,
+            "invalidVotes": 0,
+            "invalidVotesPercentage": 0,
+            "numberOfOpenedBallotBoxes": 84399,
+            "percentageOfOpenedBallotBoxes": 86.92,
+            "totalNumberOfBallotBoxes": 971,
+            "totalNumberOfVotes": 0,
+            "votesForKK": 0,
+            "votesForKKPercentage": 39.88,
+            "votesForRTE": 0,
+            "votesForRTEPercentage": 60.12
+        },
+        "name": "Amasya"
+    },
+    {
+        "data": {
+            "cityName": "Antalya",
+            "countedVotes": 0,
+            "invalidVotes": 0,
+            "invalidVotesPercentage": 0,
+            "numberOfOpenedBallotBoxes": 363,
+            "percentageOfOpenedBallotBoxes": 65.09,
+            "totalNumberOfBallotBoxes": 5592,
+            "totalNumberOfVotes": 0,
+            "votesForKK": 0,
+            "votesForKKPercentage": 55.27,
+            "votesForRTE": 0,
+            "votesForRTEPercentage": 44.73
+        },
+        "name": "Antalya"
+    },
+    {
+        "data": {
+            "cityName": "Ardahan",
+            "countedVotes": 0,
+            "invalidVotes": 0,
+            "invalidVotesPercentage": 0,
+            "numberOfOpenedBallotBoxes": 33499,
+            "percentageOfOpenedBallotBoxes": 98.82,
+            "totalNumberOfBallotBoxes": 339,
+            "totalNumberOfVotes": 0,
+            "votesForKK": 0,
+            "votesForKKPercentage": 57.18,
+            "votesForRTE": 0,
+            "votesForRTEPercentage": 42.82
+        },
+        "name": "Ardahan"
+    },
+    {
+        "data": {
+            "cityName": "Artvin",
+            "countedVotes": 0,
+            "invalidVotes": 0,
+            "invalidVotesPercentage": 0,
+            "numberOfOpenedBallotBoxes": 62999,
+            "percentageOfOpenedBallotBoxes": 98.9,
+            "totalNumberOfBallotBoxes": 637,
+            "totalNumberOfVotes": 0,
+            "votesForKK": 0,
+            "votesForKKPercentage": 49.35,
+            "votesForRTE": 0,
+            "votesForRTEPercentage": 50.65
+        },
+        "name": "Artvin"
+    },
+    {
+        "data": {
+            "cityName": "Aydın",
+            "countedVotes": 0,
+            "invalidVotes": 0,
+            "invalidVotesPercentage": 0,
+            "numberOfOpenedBallotBoxes": 155,
+            "percentageOfOpenedBallotBoxes": 57.21,
+            "totalNumberOfBallotBoxes": 2720,
+            "totalNumberOfVotes": 0,
+            "votesForKK": 0,
+            "votesForKKPercentage": 58.48,
+            "votesForRTE": 0,
+            "votesForRTEPercentage": 41.52
+        },
+        "name": "Aydın"
+    },
+    {
+        "data": {
+            "cityName": "Balıkesir",
+            "countedVotes": 0,
+            "invalidVotes": 0,
+            "invalidVotesPercentage": 0,
+            "numberOfOpenedBallotBoxes": 238,
+            "percentageOfOpenedBallotBoxes": 71.67,
+            "totalNumberOfBallotBoxes": 3322,
+            "totalNumberOfVotes": 0,
+            "votesForKK": 0,
+            "votesForKKPercentage": 50.26,
+            "votesForRTE": 0,
+            "votesForRTEPercentage": 49.74
+        },
+        "name": "Balıkesir"
+    },
+    {
+        "data": {
+            "cityName": "Bartın",
+            "countedVotes": 0,
+            "invalidVotes": 0,
+            "invalidVotesPercentage": 0,
+            "numberOfOpenedBallotBoxes": 36201,
+            "percentageOfOpenedBallotBoxes": 62.85,
+            "totalNumberOfBallotBoxes": 576,
+            "totalNumberOfVotes": 0,
+            "votesForKK": 0,
+            "votesForKKPercentage": 40.02,
+            "votesForRTE": 0,
+            "votesForRTEPercentage": 59.98
+        },
+        "name": "Bartın"
+    },
+    {
+        "data": {
+            "cityName": "Batman",
+            "countedVotes": 0,
+            "invalidVotes": 0,
+            "invalidVotesPercentage": 0,
+            "numberOfOpenedBallotBoxes": 58,
+            "percentageOfOpenedBallotBoxes": 45.08,
+            "totalNumberOfBallotBoxes": 1302,
+            "totalNumberOfVotes": 0,
+            "votesForKK": 0,
+            "votesForKKPercentage": 63.38,
+            "votesForRTE": 0,
+            "votesForRTEPercentage": 36.62
+        },
+        "name": "Batman"
+    },
+    {
+        "data": {
+            "cityName": "Bayburt",
+            "countedVotes": 0,
+            "invalidVotes": 0,
+            "invalidVotesPercentage": 0,
+            "numberOfOpenedBallotBoxes": 29100,
+            "percentageOfOpenedBallotBoxes": 100.0,
+            "totalNumberOfBallotBoxes": 291,
+            "totalNumberOfVotes": 0,
+            "votesForKK": 0,
+            "votesForKKPercentage": 17.459999999999994,
+            "votesForRTE": 0,
+            "votesForRTEPercentage": 82.54
+        },
+        "name": "Bayburt"
+    },
+    {
+        "data": {
+            "cityName": "Bilecik",
+            "countedVotes": 0,
+            "invalidVotes": 0,
+            "invalidVotesPercentage": 0,
+            "numberOfOpenedBallotBoxes": 62899,
+            "percentageOfOpenedBallotBoxes": 93.74,
+            "totalNumberOfBallotBoxes": 671,
+            "totalNumberOfVotes": 0,
+            "votesForKK": 0,
+            "votesForKKPercentage": 46.24,
+            "votesForRTE": 0,
+            "votesForRTEPercentage": 53.76
+        },
+        "name": "Bilecik"
+    },
+    {
+        "data": {
+            "cityName": "Bingöl",
+            "countedVotes": 0,
+            "invalidVotes": 0,
+            "invalidVotesPercentage": 0,
+            "numberOfOpenedBallotBoxes": 62301,
+            "percentageOfOpenedBallotBoxes": 87.38,
+            "totalNumberOfBallotBoxes": 713,
+            "totalNumberOfVotes": 0,
+            "votesForKK": 0,
+            "votesForKKPercentage": 31.879999999999995,
+            "votesForRTE": 0,
+            "votesForRTEPercentage": 68.12
+        },
+        "name": "Bingöl"
+    },
+    {
+        "data": {
+            "cityName": "Bitlis",
+            "countedVotes": 0,
+            "invalidVotes": 0,
+            "invalidVotesPercentage": 0,
+            "numberOfOpenedBallotBoxes": 77602,
+            "percentageOfOpenedBallotBoxes": 89.61,
+            "totalNumberOfBallotBoxes": 866,
+            "totalNumberOfVotes": 0,
+            "votesForKK": 0,
+            "votesForKKPercentage": 50.56,
+            "votesForRTE": 0,
+            "votesForRTEPercentage": 49.44
+        },
+        "name": "Bitlis"
+    },
+    {
+        "data": {
+            "cityName": "Bolu",
+            "countedVotes": 0,
+            "invalidVotes": 0,
+            "invalidVotesPercentage": 0,
+            "numberOfOpenedBallotBoxes": 94,
+            "percentageOfOpenedBallotBoxes": 93.37,
+            "totalNumberOfBallotBoxes": 1010,
+            "totalNumberOfVotes": 0,
+            "votesForKK": 0,
+            "votesForKKPercentage": 34.89,
+            "votesForRTE": 0,
+            "votesForRTEPercentage": 65.11
+        },
+        "name": "Bolu"
+    },
+    {
+        "data": {
+            "cityName": "Burdur",
+            "countedVotes": 0,
+            "invalidVotes": 0,
+            "invalidVotesPercentage": 0,
+            "numberOfOpenedBallotBoxes": 67899,
+            "percentageOfOpenedBallotBoxes": 94.7,
+            "totalNumberOfBallotBoxes": 717,
+            "totalNumberOfVotes": 0,
+            "votesForKK": 0,
+            "votesForKKPercentage": 44.26,
+            "votesForRTE": 0,
+            "votesForRTEPercentage": 55.74
+        },
+        "name": "Burdur"
+    },
+    {
+        "data": {
+            "cityName": "Çanakkale",
+            "countedVotes": 0,
+            "invalidVotes": 0,
+            "invalidVotesPercentage": 0,
+            "numberOfOpenedBallotBoxes": 113,
+            "percentageOfOpenedBallotBoxes": 71.11,
+            "totalNumberOfBallotBoxes": 1592,
+            "totalNumberOfVotes": 0,
+            "votesForKK": 0,
+            "votesForKKPercentage": 55.89,
+            "votesForRTE": 0,
+            "votesForRTEPercentage": 44.11
+        },
+        "name": "Çanakkale"
+    },
+    {
+        "data": {
+            "cityName": "Çankırı",
+            "countedVotes": 0,
+            "invalidVotes": 0,
+            "invalidVotesPercentage": 0,
+            "numberOfOpenedBallotBoxes": 64898,
+            "percentageOfOpenedBallotBoxes": 92.58,
+            "totalNumberOfBallotBoxes": 701,
+            "totalNumberOfVotes": 0,
+            "votesForKK": 0,
+            "votesForKKPercentage": 22.439999999999998,
+            "votesForRTE": 0,
+            "votesForRTEPercentage": 77.56
+        },
+        "name": "Çankırı"
+    },
+    {
+        "data": {
+            "cityName": "Çorum",
+            "countedVotes": 0,
+            "invalidVotes": 0,
+            "invalidVotesPercentage": 0,
+            "numberOfOpenedBallotBoxes": 138,
+            "percentageOfOpenedBallotBoxes": 81.71,
+            "totalNumberOfBallotBoxes": 1700,
+            "totalNumberOfVotes": 0,
+            "votesForKK": 0,
+            "votesForKKPercentage": 32.89,
+            "votesForRTE": 0,
+            "votesForRTEPercentage": 67.11
+        },
+        "name": "Çorum"
+    },
+    {
+        "data": {
+            "cityName": "Denizli",
+            "countedVotes": 0,
+            "invalidVotes": 0,
+            "invalidVotesPercentage": 0,
+            "numberOfOpenedBallotBoxes": 153,
+            "percentageOfOpenedBallotBoxes": 62.25,
+            "totalNumberOfBallotBoxes": 2461,
+            "totalNumberOfVotes": 0,
+            "votesForKK": 0,
+            "votesForKKPercentage": 51.22,
+            "votesForRTE": 0,
+            "votesForRTEPercentage": 48.78
+        },
+        "name": "Denizli"
+    },
+    {
+        "data": {
+            "cityName": "Diyarbakır",
+            "countedVotes": 0,
+            "invalidVotes": 0,
+            "invalidVotesPercentage": 0,
+            "numberOfOpenedBallotBoxes": 247,
+            "percentageOfOpenedBallotBoxes": 67.06,
+            "totalNumberOfBallotBoxes": 3685,
+            "totalNumberOfVotes": 0,
+            "votesForKK": 0,
+            "votesForKKPercentage": 70.6,
+            "votesForRTE": 0,
+            "votesForRTEPercentage": 29.400000000000006
+        },
+        "name": "Diyarbakır"
+    },
+    {
+        "data": {
+            "cityName": "Düzce",
+            "countedVotes": 0,
+            "invalidVotes": 0,
+            "invalidVotesPercentage": 0,
+            "numberOfOpenedBallotBoxes": 97997,
+            "percentageOfOpenedBallotBoxes": 99.49,
+            "totalNumberOfBallotBoxes": 985,
+            "totalNumberOfVotes": 0,
+            "votesForKK": 0,
+            "votesForKKPercentage": 27.92,
+            "votesForRTE": 0,
+            "votesForRTEPercentage": 72.08
+        },
+        "name": "Düzce"
+    },
+    {
+        "data": {
+            "cityName": "Edirne",
+            "countedVotes": 0,
+            "invalidVotes": 0,
+            "invalidVotesPercentage": 0,
+            "numberOfOpenedBallotBoxes": 77,
+            "percentageOfOpenedBallotBoxes": 75.68,
+            "totalNumberOfBallotBoxes": 1024,
+            "totalNumberOfVotes": 0,
+            "votesForKK": 0,
+            "votesForKKPercentage": 66.96,
+            "votesForRTE": 0,
+            "votesForRTEPercentage": 33.040000000000006
+        },
+        "name": "Edirne"
+    },
+    {
+        "data": {
+            "cityName": "Elazığ",
+            "countedVotes": 0,
+            "invalidVotes": 0,
+            "invalidVotesPercentage": 0,
+            "numberOfOpenedBallotBoxes": 151,
+            "percentageOfOpenedBallotBoxes": 92.6,
+            "totalNumberOfBallotBoxes": 1635,
+            "totalNumberOfVotes": 0,
+            "votesForKK": 0,
+            "votesForKKPercentage": 29.439999999999998,
+            "votesForRTE": 0,
+            "votesForRTEPercentage": 70.56
+        },
+        "name": "Elazığ"
+    },
+    {
+        "data": {
+            "cityName": "Erzincan",
+            "countedVotes": 0,
+            "invalidVotes": 0,
+            "invalidVotesPercentage": 0,
+            "numberOfOpenedBallotBoxes": 86799,
+            "percentageOfOpenedBallotBoxes": 89.3,
+            "totalNumberOfBallotBoxes": 972,
+            "totalNumberOfVotes": 0,
+            "votesForKK": 0,
+            "votesForKKPercentage": 38.3,
+            "votesForRTE": 0,
+            "votesForRTEPercentage": 61.7
+        },
+        "name": "Erzincan"
+    },
+    {
+        "data": {
+            "cityName": "Erzurum",
+            "countedVotes": 0,
+            "invalidVotes": 0,
+            "invalidVotesPercentage": 0,
+            "numberOfOpenedBallotBoxes": 185,
+            "percentageOfOpenedBallotBoxes": 82.69,
+            "totalNumberOfBallotBoxes": 2241,
+            "totalNumberOfVotes": 0,
+            "votesForKK": 0,
+            "votesForKKPercentage": 26.090000000000003,
+            "votesForRTE": 0,
+            "votesForRTEPercentage": 73.91
+        },
+        "name": "Erzurum"
+    },
+    {
+        "data": {
+            "cityName": "Eskişehir",
+            "countedVotes": 0,
+            "invalidVotes": 0,
+            "invalidVotesPercentage": 0,
+            "numberOfOpenedBallotBoxes": 132,
+            "percentageOfOpenedBallotBoxes": 60.11,
+            "totalNumberOfBallotBoxes": 2196,
+            "totalNumberOfVotes": 0,
+            "votesForKK": 0,
+            "votesForKKPercentage": 54.32,
+            "votesForRTE": 0,
+            "votesForRTEPercentage": 45.68
+        },
+        "name": "Eskişehir"
+    },
+    {
+        "data": {
+            "cityName": "Gaziantep",
+            "countedVotes": 0,
+            "invalidVotes": 0,
+            "invalidVotesPercentage": 0,
+            "numberOfOpenedBallotBoxes": 371,
+            "percentageOfOpenedBallotBoxes": 91.31,
+            "totalNumberOfBallotBoxes": 4074,
+            "totalNumberOfVotes": 0,
+            "votesForKK": 0,
+            "votesForKKPercentage": 37.12,
+            "votesForRTE": 0,
+            "votesForRTEPercentage": 62.88
+        },
+        "name": "Gaziantep"
+    },
+    {
+        "data": {
+            "cityName": "Giresun",
+            "countedVotes": 0,
+            "invalidVotes": 0,
+            "invalidVotesPercentage": 0,
+            "numberOfOpenedBallotBoxes": 125,
+            "percentageOfOpenedBallotBoxes": 93.16,
+            "totalNumberOfBallotBoxes": 1345,
+            "totalNumberOfVotes": 0,
+            "votesForKK": 0,
+            "votesForKKPercentage": 35.34,
+            "votesForRTE": 0,
+            "votesForRTEPercentage": 64.66
+        },
+        "name": "Giresun"
+    },
+    {
+        "data": {
+            "cityName": "Gümüşhane",
+            "countedVotes": 0,
+            "invalidVotes": 0,
+            "invalidVotesPercentage": 0,
+            "numberOfOpenedBallotBoxes": 55800,
+            "percentageOfOpenedBallotBoxes": 98.24,
+            "totalNumberOfBallotBoxes": 568,
+            "totalNumberOfVotes": 0,
+            "votesForKK": 0,
+            "votesForKKPercentage": 21.150000000000006,
+            "votesForRTE": 0,
+            "votesForRTEPercentage": 78.85
+        },
+        "name": "Gümüşhane"
+    },
+    {
+        "data": {
+            "cityName": "Hakkari",
+            "countedVotes": 0,
+            "invalidVotes": 0,
+            "invalidVotesPercentage": 0,
+            "numberOfOpenedBallotBoxes": 47498,
+            "percentageOfOpenedBallotBoxes": 80.37,
+            "totalNumberOfBallotBoxes": 591,
+            "totalNumberOfVotes": 0,
+            "votesForKK": 0,
+            "votesForKKPercentage": 70.94,
+            "votesForRTE": 0,
+            "votesForRTEPercentage": 29.060000000000002
+        },
+        "name": "Hakkari"
+    },
+    {
+        "data": {
+            "cityName": "Hatay",
+            "countedVotes": 0,
+            "invalidVotes": 0,
+            "invalidVotesPercentage": 0,
+            "numberOfOpenedBallotBoxes": 233,
+            "percentageOfOpenedBallotBoxes": 73.91,
+            "totalNumberOfBallotBoxes": 3154,
+            "totalNumberOfVotes": 0,
+            "votesForKK": 0,
+            "votesForKKPercentage": 50.34,
+            "votesForRTE": 0,
+            "votesForRTEPercentage": 49.66
+        },
+        "name": "Hatay"
+    },
+    {
+        "data": {
+            "cityName": "Iğdır",
+            "countedVotes": 0,
+            "invalidVotes": 0,
+            "invalidVotesPercentage": 0,
+            "numberOfOpenedBallotBoxes": 37299,
+            "percentageOfOpenedBallotBoxes": 78.69,
+            "totalNumberOfBallotBoxes": 474,
+            "totalNumberOfVotes": 0,
+            "votesForKK": 0,
+            "votesForKKPercentage": 67.15,
+            "votesForRTE": 0,
+            "votesForRTEPercentage": 32.849999999999994
+        },
+        "name": "Iğdır"
+    },
+    {
+        "data": {
+            "cityName": "Isparta",
+            "countedVotes": 0,
+            "invalidVotes": 0,
+            "invalidVotesPercentage": 0,
+            "numberOfOpenedBallotBoxes": 88,
+            "percentageOfOpenedBallotBoxes": 81.57,
+            "totalNumberOfBallotBoxes": 1085,
+            "totalNumberOfVotes": 0,
+            "votesForKK": 0,
+            "votesForKKPercentage": 41.2,
+            "votesForRTE": 0,
+            "votesForRTEPercentage": 58.8
+        },
+        "name": "Isparta"
+    },
+    {
+        "data": {
+            "cityName": "K.Maraş",
+            "countedVotes": 0,
+            "invalidVotes": 0,
+            "invalidVotesPercentage": 0,
+            "numberOfOpenedBallotBoxes": 187,
+            "percentageOfOpenedBallotBoxes": 77.96,
+            "totalNumberOfBallotBoxes": 2405,
+            "totalNumberOfVotes": 0,
+            "votesForKK": 0,
+            "votesForKKPercentage": 25.010000000000005,
+            "votesForRTE": 0,
+            "votesForRTEPercentage": 74.99
+        },
+        "name": "K.Maraş"
+    },
+    {
+        "data": {
+            "cityName": "Karabük",
+            "countedVotes": 0,
+            "invalidVotes": 0,
+            "invalidVotesPercentage": 0,
+            "numberOfOpenedBallotBoxes": 68897,
+            "percentageOfOpenedBallotBoxes": 94.77,
+            "totalNumberOfBallotBoxes": 727,
+            "totalNumberOfVotes": 0,
+            "votesForKK": 0,
+            "votesForKKPercentage": 35.78,
+            "votesForRTE": 0,
+            "votesForRTEPercentage": 64.22
+        },
+        "name": "Karabük"
+    },
+    {
+        "data": {
+            "cityName": "Karaman",
+            "countedVotes": 0,
+            "invalidVotes": 0,
+            "invalidVotesPercentage": 0,
+            "numberOfOpenedBallotBoxes": 59699,
+            "percentageOfOpenedBallotBoxes": 89.37,
+            "totalNumberOfBallotBoxes": 668,
+            "totalNumberOfVotes": 0,
+            "votesForKK": 0,
+            "votesForKKPercentage": 33.44,
+            "votesForRTE": 0,
+            "votesForRTEPercentage": 66.56
+        },
+        "name": "Karaman"
+    },
+    {
+        "data": {
+            "cityName": "Kars",
+            "countedVotes": 0,
+            "invalidVotes": 0,
+            "invalidVotesPercentage": 0,
+            "numberOfOpenedBallotBoxes": 59799,
+            "percentageOfOpenedBallotBoxes": 82.71,
+            "totalNumberOfBallotBoxes": 723,
+            "totalNumberOfVotes": 0,
+            "votesForKK": 0,
+            "votesForKKPercentage": 54.45,
+            "votesForRTE": 0,
+            "votesForRTEPercentage": 45.55
+        },
+        "name": "Kars"
+    },
+    {
+        "data": {
+            "cityName": "Kastamonu",
+            "countedVotes": 0,
+            "invalidVotes": 0,
+            "invalidVotesPercentage": 0,
+            "numberOfOpenedBallotBoxes": 153,
+            "percentageOfOpenedBallotBoxes": 92.69,
+            "totalNumberOfBallotBoxes": 1655,
+            "totalNumberOfVotes": 0,
+            "votesForKK": 0,
+            "votesForKKPercentage": 30.090000000000003,
+            "votesForRTE": 0,
+            "votesForRTEPercentage": 69.91
+        },
+        "name": "Kastamonu"
+    },
+    {
+        "data": {
+            "cityName": "Kayseri",
+            "countedVotes": 0,
+            "invalidVotes": 0,
+            "invalidVotesPercentage": 0,
+            "numberOfOpenedBallotBoxes": 253,
+            "percentageOfOpenedBallotBoxes": 79.69,
+            "totalNumberOfBallotBoxes": 3175,
+            "totalNumberOfVotes": 0,
+            "votesForKK": 0,
+            "votesForKKPercentage": 31.42,
+            "votesForRTE": 0,
+            "votesForRTEPercentage": 68.58
+        },
+        "name": "Kayseri"
+    },
+    {
+        "data": {
+            "cityName": "Kırıkkale",
+            "countedVotes": 0,
+            "invalidVotes": 0,
+            "invalidVotesPercentage": 0,
+            "numberOfOpenedBallotBoxes": 64000,
+            "percentageOfOpenedBallotBoxes": 88.89,
+            "totalNumberOfBallotBoxes": 720,
+            "totalNumberOfVotes": 0,
+            "votesForKK": 0,
+            "votesForKKPercentage": 35.86,
+            "votesForRTE": 0,
+            "votesForRTEPercentage": 64.14
+        },
+        "name": "Kırıkkale"
+    },
+    {
+        "data": {
+            "cityName": "Kırklareli",
+            "countedVotes": 0,
+            "invalidVotes": 0,
+            "invalidVotesPercentage": 0,
+            "numberOfOpenedBallotBoxes": 62400,
+            "percentageOfOpenedBallotBoxes": 67.9,
+            "totalNumberOfBallotBoxes": 919,
+            "totalNumberOfVotes": 0,
+            "votesForKK": 0,
+            "votesForKKPercentage": 68.93,
+            "votesForRTE": 0,
+            "votesForRTEPercentage": 31.069999999999993
+        },
+        "name": "Kırklareli"
+    },
+    {
+        "data": {
+            "cityName": "Kırşehir",
+            "countedVotes": 0,
+            "invalidVotes": 0,
+            "invalidVotesPercentage": 0,
+            "numberOfOpenedBallotBoxes": 56999,
+            "percentageOfOpenedBallotBoxes": 83.09,
+            "totalNumberOfBallotBoxes": 686,
+            "totalNumberOfVotes": 0,
+            "votesForKK": 0,
+            "votesForKKPercentage": 41.55,
+            "votesForRTE": 0,
+            "votesForRTEPercentage": 58.45
+        },
+        "name": "Kırşehir"
+    },
+    {
+        "data": {
+            "cityName": "Kilis",
+            "countedVotes": 0,
+            "invalidVotes": 0,
+            "invalidVotesPercentage": 0,
+            "numberOfOpenedBallotBoxes": 38198,
+            "percentageOfOpenedBallotBoxes": 96.95,
+            "totalNumberOfBallotBoxes": 394,
+            "totalNumberOfVotes": 0,
+            "votesForKK": 0,
+            "votesForKKPercentage": 29.78,
+            "votesForRTE": 0,
+            "votesForRTEPercentage": 70.22
+        },
+        "name": "Kilis"
+    },
+    {
+        "data": {
+            "cityName": "Kocaeli",
+            "countedVotes": 0,
+            "invalidVotes": 0,
+            "invalidVotesPercentage": 0,
+            "numberOfOpenedBallotBoxes": 283,
+            "percentageOfOpenedBallotBoxes": 65.54,
+            "totalNumberOfBallotBoxes": 4327,
+            "totalNumberOfVotes": 0,
+            "votesForKK": 0,
+            "votesForKKPercentage": 41.68,
+            "votesForRTE": 0,
+            "votesForRTEPercentage": 58.32
+        },
+        "name": "Kocaeli"
+    },
+    {
+        "data": {
+            "cityName": "Konya",
+            "countedVotes": 0,
+            "invalidVotes": 0,
+            "invalidVotesPercentage": 0,
+            "numberOfOpenedBallotBoxes": 394,
+            "percentageOfOpenedBallotBoxes": 78.91,
+            "totalNumberOfBallotBoxes": 4998,
+            "totalNumberOfVotes": 0,
+            "votesForKK": 0,
+            "votesForKKPercentage": 26.42,
+            "votesForRTE": 0,
+            "votesForRTEPercentage": 73.58
+        },
+        "name": "Konya"
+    },
+    {
+        "data": {
+            "cityName": "Kütahya",
+            "countedVotes": 0,
+            "invalidVotes": 0,
+            "invalidVotesPercentage": 0,
+            "numberOfOpenedBallotBoxes": 129,
+            "percentageOfOpenedBallotBoxes": 80.34,
+            "totalNumberOfBallotBoxes": 1607,
+            "totalNumberOfVotes": 0,
+            "votesForKK": 0,
+            "votesForKKPercentage": 29.28,
+            "votesForRTE": 0,
+            "votesForRTEPercentage": 70.72
+        },
+        "name": "Kütahya"
+    },
+    {
+        "data": {
+            "cityName": "Malatya",
+            "countedVotes": 0,
+            "invalidVotes": 0,
+            "invalidVotesPercentage": 0,
+            "numberOfOpenedBallotBoxes": 162,
+            "percentageOfOpenedBallotBoxes": 85.32,
+            "totalNumberOfBallotBoxes": 1901,
+            "totalNumberOfVotes": 0,
+            "votesForKK": 0,
+            "votesForKKPercentage": 28.22,
+            "votesForRTE": 0,
+            "votesForRTEPercentage": 71.78
+        },
+        "name": "Malatya"
+    },
+    {
+        "data": {
+            "cityName": "Manisa",
+            "countedVotes": 0,
+            "invalidVotes": 0,
+            "invalidVotesPercentage": 0,
+            "numberOfOpenedBallotBoxes": 237,
+            "percentageOfOpenedBallotBoxes": 66.49,
+            "totalNumberOfBallotBoxes": 3578,
+            "totalNumberOfVotes": 0,
+            "votesForKK": 0,
+            "votesForKKPercentage": 48.47,
+            "votesForRTE": 0,
+            "votesForRTEPercentage": 51.53
+        },
+        "name": "Manisa"
+    },
+    {
+        "data": {
+            "cityName": "Mardin",
+            "countedVotes": 0,
+            "invalidVotes": 0,
+            "invalidVotesPercentage": 0,
+            "numberOfOpenedBallotBoxes": 146,
+            "percentageOfOpenedBallotBoxes": 79.63,
+            "totalNumberOfBallotBoxes": 1846,
+            "totalNumberOfVotes": 0,
+            "votesForKK": 0,
+            "votesForKKPercentage": 63.74,
+            "votesForRTE": 0,
+            "votesForRTEPercentage": 36.26
+        },
+        "name": "Mardin"
+    },
+    {
+        "data": {
+            "cityName": "Mersin",
+            "countedVotes": 0,
+            "invalidVotes": 0,
+            "invalidVotesPercentage": 0,
+            "numberOfOpenedBallotBoxes": 208,
+            "percentageOfOpenedBallotBoxes": 50.34,
+            "totalNumberOfBallotBoxes": 4134,
+            "totalNumberOfVotes": 0,
+            "votesForKK": 0,
+            "votesForKKPercentage": 57.51,
+            "votesForRTE": 0,
+            "votesForRTEPercentage": 42.49
+        },
+        "name": "Mersin"
+    },
+    {
+        "data": {
+            "cityName": "Muğla",
+            "countedVotes": 0,
+            "invalidVotes": 0,
+            "invalidVotesPercentage": 0,
+            "numberOfOpenedBallotBoxes": 151,
+            "percentageOfOpenedBallotBoxes": 62.2,
+            "totalNumberOfBallotBoxes": 2439,
+            "totalNumberOfVotes": 0,
+            "votesForKK": 0,
+            "votesForKKPercentage": 64.62,
+            "votesForRTE": 0,
+            "votesForRTEPercentage": 35.379999999999995
+        },
+        "name": "Muğla"
+    },
+    {
+        "data": {
+            "cityName": "Muş",
+            "countedVotes": 0,
+            "invalidVotes": 0,
+            "invalidVotesPercentage": 0,
+            "numberOfOpenedBallotBoxes": 64402,
+            "percentageOfOpenedBallotBoxes": 74.8,
+            "totalNumberOfBallotBoxes": 861,
+            "totalNumberOfVotes": 0,
+            "votesForKK": 0,
+            "votesForKKPercentage": 52.8,
+            "votesForRTE": 0,
+            "votesForRTEPercentage": 47.2
+        },
+        "name": "Muş"
+    },
+    {
+        "data": {
+            "cityName": "Nevşehir",
+            "countedVotes": 0,
+            "invalidVotes": 0,
+            "invalidVotesPercentage": 0,
+            "numberOfOpenedBallotBoxes": 71701,
+            "percentageOfOpenedBallotBoxes": 95.73,
+            "totalNumberOfBallotBoxes": 749,
+            "totalNumberOfVotes": 0,
+            "votesForKK": 0,
+            "votesForKKPercentage": 33.17,
+            "votesForRTE": 0,
+            "votesForRTEPercentage": 66.83
+        },
+        "name": "Nevşehir"
+    },
+    {
+        "data": {
+            "cityName": "Niğde",
+            "countedVotes": 0,
+            "invalidVotes": 0,
+            "invalidVotesPercentage": 0,
+            "numberOfOpenedBallotBoxes": 75400,
+            "percentageOfOpenedBallotBoxes": 91.84,
+            "totalNumberOfBallotBoxes": 821,
+            "totalNumberOfVotes": 0,
+            "votesForKK": 0,
+            "votesForKKPercentage": 37.21,
+            "votesForRTE": 0,
+            "votesForRTEPercentage": 62.79
+        },
+        "name": "Niğde"
+    },
+    {
+        "data": {
+            "cityName": "Ordu",
+            "countedVotes": 0,
+            "invalidVotes": 0,
+            "invalidVotesPercentage": 0,
+            "numberOfOpenedBallotBoxes": 183,
+            "percentageOfOpenedBallotBoxes": 87.87,
+            "totalNumberOfBallotBoxes": 2094,
+            "totalNumberOfVotes": 0,
+            "votesForKK": 0,
+            "votesForKKPercentage": 33.11,
+            "votesForRTE": 0,
+            "votesForRTEPercentage": 66.89
+        },
+        "name": "Ordu"
+    },
+    {
+        "data": {
+            "cityName": "Osmaniye",
+            "countedVotes": 0,
+            "invalidVotes": 0,
+            "invalidVotesPercentage": 0,
+            "numberOfOpenedBallotBoxes": 79,
+            "percentageOfOpenedBallotBoxes": 67.41,
+            "totalNumberOfBallotBoxes": 1172,
+            "totalNumberOfVotes": 0,
+            "votesForKK": 0,
+            "votesForKKPercentage": 33.849999999999994,
+            "votesForRTE": 0,
+            "votesForRTEPercentage": 66.15
+        },
+        "name": "Osmaniye"
+    },
+    {
+        "data": {
+            "cityName": "Rize",
+            "countedVotes": 0,
+            "invalidVotes": 0,
+            "invalidVotesPercentage": 0,
+            "numberOfOpenedBallotBoxes": 93,
+            "percentageOfOpenedBallotBoxes": 92.84,
+            "totalNumberOfBallotBoxes": 1005,
+            "totalNumberOfVotes": 0,
+            "votesForKK": 0,
+            "votesForKKPercentage": 23.849999999999994,
+            "votesForRTE": 0,
+            "votesForRTEPercentage": 76.15
+        },
+        "name": "Rize"
+    },
+    {
+        "data": {
+            "cityName": "Sakarya",
+            "countedVotes": 0,
+            "invalidVotes": 0,
+            "invalidVotesPercentage": 0,
+            "numberOfOpenedBallotBoxes": 209,
+            "percentageOfOpenedBallotBoxes": 85.49,
+            "totalNumberOfBallotBoxes": 2447,
+            "totalNumberOfVotes": 0,
+            "votesForKK": 0,
+            "votesForKKPercentage": 31.03,
+            "votesForRTE": 0,
+            "votesForRTEPercentage": 68.97
+        },
+        "name": "Sakarya"
+    },
+    {
+        "data": {
+            "cityName": "Samsun",
+            "countedVotes": 0,
+            "invalidVotes": 0,
+            "invalidVotesPercentage": 0,
+            "numberOfOpenedBallotBoxes": 259,
+            "percentageOfOpenedBallotBoxes": 75.75,
+            "totalNumberOfBallotBoxes": 3423,
+            "totalNumberOfVotes": 0,
+            "votesForKK": 0,
+            "votesForKKPercentage": 32.379999999999995,
+            "votesForRTE": 0,
+            "votesForRTEPercentage": 67.62
+        },
+        "name": "Samsun"
+    },
+    {
+        "data": {
+            "cityName": "Siirt",
+            "countedVotes": 0,
+            "invalidVotes": 0,
+            "invalidVotesPercentage": 0,
+            "numberOfOpenedBallotBoxes": 65701,
+            "percentageOfOpenedBallotBoxes": 88.19,
+            "totalNumberOfBallotBoxes": 745,
+            "totalNumberOfVotes": 0,
+            "votesForKK": 0,
+            "votesForKKPercentage": 54.42,
+            "votesForRTE": 0,
+            "votesForRTEPercentage": 45.58
+        },
+        "name": "Siirt"
+    },
+    {
+        "data": {
+            "cityName": "Sinop",
+            "countedVotes": 0,
+            "invalidVotes": 0,
+            "invalidVotesPercentage": 0,
+            "numberOfOpenedBallotBoxes": 69197,
+            "percentageOfOpenedBallotBoxes": 87.26,
+            "totalNumberOfBallotBoxes": 793,
+            "totalNumberOfVotes": 0,
+            "votesForKK": 0,
+            "votesForKKPercentage": 35.349999999999994,
+            "votesForRTE": 0,
+            "votesForRTEPercentage": 64.65
+        },
+        "name": "Sinop"
+    },
+    {
+        "data": {
+            "cityName": "Sivas",
+            "countedVotes": 0,
+            "invalidVotes": 0,
+            "invalidVotesPercentage": 0,
+            "numberOfOpenedBallotBoxes": 176,
+            "percentageOfOpenedBallotBoxes": 75.53,
+            "totalNumberOfBallotBoxes": 2333,
+            "totalNumberOfVotes": 0,
+            "votesForKK": 0,
+            "votesForKKPercentage": 26.090000000000003,
+            "votesForRTE": 0,
+            "votesForRTEPercentage": 73.91
+        },
+        "name": "Sivas"
+    },
+    {
+        "data": {
+            "cityName": "Şanlıurfa",
+            "countedVotes": 0,
+            "invalidVotes": 0,
+            "invalidVotesPercentage": 0,
+            "numberOfOpenedBallotBoxes": 302,
+            "percentageOfOpenedBallotBoxes": 73.91,
+            "totalNumberOfBallotBoxes": 4089,
+            "totalNumberOfVotes": 0,
+            "votesForKK": 0,
+            "votesForKKPercentage": 34.56,
+            "votesForRTE": 0,
+            "votesForRTEPercentage": 65.44
+        },
+        "name": "Şanlıurfa"
+    },
+    {
+        "data": {
+            "cityName": "Şırnak",
+            "countedVotes": 0,
+            "invalidVotes": 0,
+            "invalidVotesPercentage": 0,
+            "numberOfOpenedBallotBoxes": 83,
+            "percentageOfOpenedBallotBoxes": 81.07,
+            "totalNumberOfBallotBoxes": 1025,
+            "totalNumberOfVotes": 0,
+            "votesForKK": 0,
+            "votesForKKPercentage": 74.78,
+            "votesForRTE": 0,
+            "votesForRTEPercentage": 25.22
+        },
+        "name": "Şırnak"
+    },
+    {
+        "data": {
+            "cityName": "Tekirdağ",
+            "countedVotes": 0,
+            "invalidVotes": 0,
+            "invalidVotesPercentage": 0,
+            "numberOfOpenedBallotBoxes": 200,
+            "percentageOfOpenedBallotBoxes": 80.26,
+            "totalNumberOfBallotBoxes": 2493,
+            "totalNumberOfVotes": 0,
+            "votesForKK": 0,
+            "votesForKKPercentage": 59.47,
+            "votesForRTE": 0,
+            "votesForRTEPercentage": 40.53
+        },
+        "name": "Tekirdağ"
+    },
+    {
+        "data": {
+            "cityName": "Tokat",
+            "countedVotes": 0,
+            "invalidVotes": 0,
+            "invalidVotesPercentage": 0,
+            "numberOfOpenedBallotBoxes": 129,
+            "percentageOfOpenedBallotBoxes": 75.57,
+            "totalNumberOfBallotBoxes": 1711,
+            "totalNumberOfVotes": 0,
+            "votesForKK": 0,
+            "votesForKKPercentage": 33.95,
+            "votesForRTE": 0,
+            "votesForRTEPercentage": 66.05
+        },
+        "name": "Tokat"
+    },
+    {
+        "data": {
+            "cityName": "Trabzon",
+            "countedVotes": 0,
+            "invalidVotes": 0,
+            "invalidVotesPercentage": 0,
+            "numberOfOpenedBallotBoxes": 173,
+            "percentageOfOpenedBallotBoxes": 80.26,
+            "totalNumberOfBallotBoxes": 2158,
+            "totalNumberOfVotes": 0,
+            "votesForKK": 0,
+            "votesForKKPercentage": 29.879999999999995,
+            "votesForRTE": 0,
+            "votesForRTEPercentage": 70.12
+        },
+        "name": "Trabzon"
+    },
+    {
+        "data": {
+            "cityName": "Tunceli",
+            "countedVotes": 0,
+            "invalidVotes": 0,
+            "invalidVotesPercentage": 0,
+            "numberOfOpenedBallotBoxes": 24098,
+            "percentageOfOpenedBallotBoxes": 71.51,
+            "totalNumberOfBallotBoxes": 337,
+            "totalNumberOfVotes": 0,
+            "votesForKK": 0,
+            "votesForKKPercentage": 80.0,
+            "votesForRTE": 0,
+            "votesForRTEPercentage": 20.0
+        },
+        "name": "Tunceli"
+    },
+    {
+        "data": {
+            "cityName": "Uşak",
+            "countedVotes": 0,
+            "invalidVotes": 0,
+            "invalidVotesPercentage": 0,
+            "numberOfOpenedBallotBoxes": 81302,
+            "percentageOfOpenedBallotBoxes": 87.61,
+            "totalNumberOfBallotBoxes": 928,
+            "totalNumberOfVotes": 0,
+            "votesForKK": 0,
+            "votesForKKPercentage": 48.63,
+            "votesForRTE": 0,
+            "votesForRTEPercentage": 51.37
+        },
+        "name": "Uşak"
+    },
+    {
+        "data": {
+            "cityName": "Van",
+            "countedVotes": 0,
+            "invalidVotes": 0,
+            "invalidVotesPercentage": 0,
+            "numberOfOpenedBallotBoxes": 151,
+            "percentageOfOpenedBallotBoxes": 65.93,
+            "totalNumberOfBallotBoxes": 2301,
+            "totalNumberOfVotes": 0,
+            "votesForKK": 0,
+            "votesForKKPercentage": 60.55,
+            "votesForRTE": 0,
+            "votesForRTEPercentage": 39.45
+        },
+        "name": "Van"
+    },
+    {
+        "data": {
+            "cityName": "Yalova",
+            "countedVotes": 0,
+            "invalidVotes": 0,
+            "invalidVotesPercentage": 0,
+            "numberOfOpenedBallotBoxes": 46000,
+            "percentageOfOpenedBallotBoxes": 78.1,
+            "totalNumberOfBallotBoxes": 589,
+            "totalNumberOfVotes": 0,
+            "votesForKK": 0,
+            "votesForKKPercentage": 49.56,
+            "votesForRTE": 0,
+            "votesForRTEPercentage": 50.44
+        },
+        "name": "Yalova"
+    },
+    {
+        "data": {
+            "cityName": "Yozgat",
+            "countedVotes": 0,
+            "invalidVotes": 0,
+            "invalidVotesPercentage": 0,
+            "numberOfOpenedBallotBoxes": 121,
+            "percentageOfOpenedBallotBoxes": 93.76,
+            "totalNumberOfBallotBoxes": 1299,
+            "totalNumberOfVotes": 0,
+            "votesForKK": 0,
+            "votesForKKPercentage": 23.180000000000007,
+            "votesForRTE": 0,
+            "votesForRTEPercentage": 76.82
+        },
+        "name": "Yozgat"
+    },
+    {
+        "data": {
+            "cityName": "Zonguldak",
+            "countedVotes": 0,
+            "invalidVotes": 0,
+            "invalidVotesPercentage": 0,
+            "numberOfOpenedBallotBoxes": 130,
+            "percentageOfOpenedBallotBoxes": 84.72,
+            "totalNumberOfBallotBoxes": 1538,
+            "totalNumberOfVotes": 0,
+            "votesForKK": 0,
+            "votesForKKPercentage": 44.71,
+            "votesForRTE": 0,
+            "votesForRTEPercentage": 55.29
+        },
+        "name": "Zonguldak"
+    }
+]

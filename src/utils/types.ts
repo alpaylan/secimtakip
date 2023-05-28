@@ -11,6 +11,7 @@ export type CityVoteData = {
     // ballot boxes
     totalNumberOfBallotBoxes: number;
     numberOfOpenedBallotBoxes: number;
+    percentageOfOpenedBallotBoxes: number,
     votesForKKPercentage: number;
     votesForRTEPercentage: number;
     invalidVotesPercentage: number;

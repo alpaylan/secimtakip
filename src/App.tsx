@@ -14,7 +14,7 @@ function App() {
     <div className="App">
       <Switch  defaultChecked />
       <Switch  defaultChecked color="secondary" />
-      <Map mode="split" monoChromeScheme='orangeScale' splitScheme='separate' />
+      <Map mode="monochrome" monoChromeScheme='greyScale' splitScheme='separate' />
     </div>
   );
 }

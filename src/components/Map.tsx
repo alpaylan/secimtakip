@@ -5,6 +5,7 @@ import { MapContainer, TileLayer, GeoJSON, Polygon } from 'react-leaflet';
 import { GeoJsonObject } from 'geojson';
 
 import cities from '../data/cities.json';
+import votedata from '../data/votedata1910.json';
 
 import polygonClipping from 'polygon-clipping';
 import { Ring, MultiPolygon } from 'polygon-clipping';
@@ -75,13 +76,13 @@ interface MapProps {
     splitScheme?: SplitScheme
 }
 
-const mockCityData: VoteData = cities.features.map((city) => ({
-    name: city.properties.name,
-    data: generateVoteData(city.properties.name),
-}));
+// const mockCityData: VoteData = cities.features.map((city) => ({
+//     name: city.properties.name,
+//     data: generateVoteData(city.properties.name),
+// }));
 
 const computerMonochromeColor = (monoChromeScheme: MonoChromeScheme, name: string): string => {
-    const city = mockCityData.find((cityData) => cityData.name === name);
+    const city = votedata.find((cityData) => cityData.name === name);
     if (monoChromeScheme === "greyScale") {
         const nominator = city?.data.numberOfOpenedBallotBoxes || 0;
         const denominator = city?.data.totalNumberOfBallotBoxes || 1;
@@ -104,15 +105,16 @@ const Map: React.FC<MapProps> = (
 ) => {
 
     const cityPartsMapped = cities.features.map((city) => {
-        const data = mockCityData.find((cityData) => cityData.name === city.properties.name)?.data || {
-            votesForKK: 1,
-            votesForRTE: 1,
-            totalNumberOfVotes: 2,
+        const data = votedata.find((cityData) => cityData.name === city.properties.name)?.data || {
+            votesForKKPercentage: 0.5,
+            votesForRTEPercentage: 0.5,
+            totalNumberOfVotes: 1,
         };
 
-        let w1 = data.votesForKK;
-        let w2 = data.votesForRTE;
-        let w3 = data.totalNumberOfVotes - w1 - w2;
+        let w1 = data.votesForKKPercentage;
+        let w2 = data.votesForRTEPercentage;
+        // let w3 = data.totalNumberOfVotes - w1 - w2;
+        let w3 = 0;
         let sum = w1 + w2 + w3;
         const normalizedWeights =
             splitScheme === "leftStack" ?
