@@ -8,6 +8,8 @@ import cities from '../data/cities.json';
 
 import polygonClipping from 'polygon-clipping';
 import { Ring, MultiPolygon } from 'polygon-clipping';
+import generateVoteData from '../utils/genVoteData';
+import { CityVoteData, VoteData } from '../utils/types';
 
 
 const divideCityMultiPolygon = (city: GeoJsonObject, weights: number[]): MultiPolygon[] => {
@@ -54,23 +56,73 @@ const divideCity = (city: GeoJsonObject, weights: number[]): MultiPolygon[] => {
 
 
 
-const indexToColor = (index: number): string => {
-    const colors = [
-        'red',
-        'orange',
-        'white',
-    ];
+const indexToColor = (index: number, splitScheme: SplitScheme): string => {
+    const colors =
+        splitScheme === "leftStack" ? 
+        ['red', 'orange', 'white']
+        : splitScheme === "rightStack" ?
+        ['white', 'orange', 'red']
+        : ['red', 'white', 'orange'];
+
     return colors[index % colors.length];
 }
 
-const Map: React.FC = () => {
+type MonoChromeScheme = "greyScale" | "redScale" | "orangeScale";
+type SplitScheme = "leftStack" | "rightStack" | "separate";
+interface MapProps {
+    mode: "split" | "monochrome"
+    monoChromeScheme?: MonoChromeScheme
+    splitScheme?: SplitScheme
+}
+
+const mockCityData: VoteData = cities.features.map((city) => ({
+    name: city.properties.name,
+    data: generateVoteData(city.properties.name),
+}));
+
+const computerMonochromeColor = (monoChromeScheme: MonoChromeScheme, name: string): string => {
+    const city = mockCityData.find((cityData) => cityData.name === name);
+    if (monoChromeScheme === "greyScale") {
+        const nominator = city?.data.numberOfOpenedBallotBoxes || 0;
+        const denominator = city?.data.totalNumberOfBallotBoxes || 1;
+        return `rgba(0, 0, 0, ${nominator / denominator})`;
+    } else if (monoChromeScheme === "redScale") {
+        const nominator = city?.data.votesForKK || 0;
+        const denominator = (nominator + (city?.data.votesForRTE || 0)) || 1;
+        return `rgba(255, 0, 0, ${nominator / denominator})`;
+    } else if (monoChromeScheme === "orangeScale") {
+        const nominator = city?.data.votesForKK || 0;
+        const denominator = (nominator + (city?.data.votesForRTE || 0)) || 1;
+        return `rgba(255, 165, 0, ${nominator / denominator})`;
+    }
+
+    return "blue";
+}
+
+const Map: React.FC<MapProps> = (
+    { mode, monoChromeScheme, splitScheme }: MapProps
+) => {
+
     const cityPartsMapped = cities.features.map((city) => {
-        let w1 = Math.random();
-        let w2 = Math.random();
-        let w3 = Math.random();
+        const data = mockCityData.find((cityData) => cityData.name === city.properties.name)?.data || {
+            votesForKK: 1,
+            votesForRTE: 1,
+            totalNumberOfVotes: 2,
+        };
+
+        let w1 = data.votesForKK;
+        let w2 = data.votesForRTE;
+        let w3 = data.totalNumberOfVotes - w1 - w2;
         let sum = w1 + w2 + w3;
-        return divideCity(city as GeoJsonObject, [w1/sum, w2/sum, w3/sum]);
+        const normalizedWeights =
+            splitScheme === "leftStack" ?
+                [w1 / sum, w2 / sum, w3 / sum]
+                : splitScheme === "rightStack" ?
+                    [w3 / sum, w2 / sum, w1 / sum]
+                    : [w1 / sum, w3 / sum, w2 / sum];
+        return divideCity(city as GeoJsonObject, normalizedWeights);
     }).filter((cityParts) => cityParts.length > 0).flat();
+
 
     const dividedCity = {
         type: 'FeatureCollection',
@@ -81,7 +133,7 @@ const Map: React.FC = () => {
                 coordinates: part,
             },
             properties: {
-                color: indexToColor(index),
+                color: indexToColor(index, splitScheme || "leftStack"),
             },
         }))
     }
@@ -118,26 +170,39 @@ const Map: React.FC = () => {
                     [90, -360],
                 ]}
             />
-
-            <GeoJSON
-                data={dividedCity as GeoJsonObject}
-                style={(feature) => ({
-                    color: "black",
-                    weight: 1,
-                    opacity: 1,
-                    fillOpacity: 1,
-                    fillColor: feature?.properties.color,
-                })}
-            />
-            <GeoJSON
-                data={cities as GeoJsonObject}
-                style={() => ({
-                    color: 'black',
-                    weight: 3,
-                    opacity: 0.9,
-                    fillOpacity: 0,
-                })}
-            />
+            {mode === "split" && (
+                <>
+                    <GeoJSON
+                        data={dividedCity as GeoJsonObject}
+                        style={(feature) => ({
+                            color: "black",
+                            weight: 1,
+                            opacity: 1,
+                            fillOpacity: 1,
+                            fillColor: feature?.properties.color,
+                        })}
+                    />
+                    <GeoJSON
+                        data={cities as GeoJsonObject}
+                        style={() => ({
+                            color: 'black',
+                            weight: 3,
+                            opacity: 0.9,
+                            fillOpacity: 0,
+                        })}
+                    />
+                </>)}
+            {mode === "monochrome" && (
+                <GeoJSON
+                    data={cities as GeoJsonObject}
+                    style={(feature) => ({
+                        fillColor: computerMonochromeColor(monoChromeScheme as MonoChromeScheme, feature?.properties.name),
+                        color: 'black',
+                        weight: 3,
+                        opacity: 0.9,
+                        fillOpacity: 1,
+                    })
+                    } />)}
         </MapContainer>
     )
 };
